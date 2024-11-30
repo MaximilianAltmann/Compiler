@@ -1,6 +1,6 @@
 #include <string>
 // Token-Types
-enum class TokenType { INT, IDENTIFIER, NUMBER, EQUAL, PLUS, SEMICOLON, END };
+enum class TokenType {INT, FLOAT, DOUBLE, CHAR, IDENTIFIER, NUMBER, EQUAL, PLUS, SEMICOLON, END };
 
 // Token-structure
 struct Token {

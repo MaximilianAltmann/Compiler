@@ -10,5 +10,7 @@ class lexer {
     private:
     std::string src;
     size_t pos;
-    std::string readWhile(bool (*condition)(char));
+    std::string readWhileIsAlpha();
+    std::string readWhileIsDigit();
+    std::string do_readWhile(bool (*condition)(char));
 };
